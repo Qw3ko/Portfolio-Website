@@ -1,4 +1,4 @@
-import Layout from '@/app/components/layout/layout'
+import Layout from '@/app/components/layout/Layout'
 import PageTransition from '@/app/components/ui/PageTransition'
 import StairTransition from '@/app/components/ui/StairTransition'
 import { AppProps } from 'next/app'

@@ -20,7 +20,7 @@ const about = {
 		},
 		{
 			fieldName: 'Опыт:',
-			fieldValue: '2 года',
+			fieldValue: '3 года',
 		},
 		{
 			fieldName: 'Телеграм:',
@@ -51,9 +51,14 @@ const experience = {
 	description: '',
 	items: [
 		{
-			company: 'Стажировка в Кловери',
+			company: 'Стажировка в Кловери. Проект High Five',
 			position: 'Frontend разработчик',
 			duration: 'март 2024 - июль 2024',
+		},
+		{
+			company: 'Стажировка в Кловери. Проект Лектоник',
+			position: 'Frontend разработчик',
+			duration: 'февраль 2025 - апрель 2025',
 		},
 	],
 }

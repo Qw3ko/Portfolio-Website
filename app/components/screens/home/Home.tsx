@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { FiDownload } from 'react-icons/fi'
+import { FiFileText } from 'react-icons/fi'
 import { Button } from '../../ui/button'
 import Photo from '../../ui/Photo'
 import Social from '../../ui/Social'
@@ -24,9 +24,10 @@ const Home: FC = () => {
 								variant='outline'
 								size='lg'
 								className='uppercase flex items-center gap-2'
+								href='https://tyumen.hh.ru/resume/04ceb4a1ff0943d8b30039ed1f6354736e6667'
 							>
-								<span>Скачать резюме</span>
-								<FiDownload className='text-xl' />
+								<span>Резюме</span>
+								<FiFileText className='text-xl' />
 							</Button>
 							<div className='mb-8 xl:mb-0'>
 								<Social
